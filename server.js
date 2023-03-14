@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3500;
 // custom middleware logger
 app.use(logger);
 
+
 // Cross Origin Resource Sharing
 const whitelist = ['https://www.yoursite.com', 'http://127.0.0.1:5500', 'http://localhost:3500'];
 const corsOptions = {
